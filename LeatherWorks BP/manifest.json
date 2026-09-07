@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"ByCesarKun"
+		],
+		"product_type": "addon"
+	},
+	"header": {
+		"name": "LeatherWorks",
+		"description": "LeatherWorks Addon",
+		"min_engine_version": [
+			1,
+			26,
+			30
+		],
+		"uuid": "7f8e9d2c-3a4b-5c6d-7e8f-9a0b1c2d3e4f",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8f9e0d3c-4b5c-6d7e-8f9a-0b1c2d3e4f5a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9f0e1d4c-5c6d-7e8f-9a0b-1c2d3e4f5a6b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
