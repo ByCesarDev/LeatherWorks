@@ -11,7 +11,7 @@ foreach ($w in $woods) {
     $file = Join-Path $bpBlocksDir "debarked_log_$w.json"
     $json = @"
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
@@ -51,20 +51,66 @@ foreach ($w in $woods) {
     Set-Content -Path $file -Value $json -Encoding UTF8
 }
 
+$directionalPermutations = @"
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			}
+		],
+"@
+
 # 2. Barrels
 foreach ($w in $woods) {
     $id = "lw:barrel_$w"
     $file = Join-Path $bpBlocksDir "barrel_$w.json"
     $json = @"
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
 			"menu_category": {
 				"category": "items"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					],
+					"y_rotation_offset": 180
+				}
 			}
 		},
+$directionalPermutations
 		"components": {
 			"minecraft:geometry": {
 				"identifier": "geometry.barrel_empty"
@@ -107,14 +153,23 @@ foreach ($w in $woods) {
     $file = Join-Path $bpBlocksDir "sealed_barrel_$w.json"
     $json = @"
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
 			"menu_category": {
 				"category": "items"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					],
+					"y_rotation_offset": 180
+				}
 			}
 		},
+$directionalPermutations
 		"components": {
 			"minecraft:geometry": {
 				"identifier": "geometry.barrel_empty"
@@ -157,14 +212,23 @@ foreach ($w in $woods) {
     $file = Join-Path $bpBlocksDir "drying_rack_$w.json"
     $json = @"
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
 			"menu_category": {
 				"category": "items"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					],
+					"y_rotation_offset": 180
+				}
 			}
 		},
+$directionalPermutations
 		"components": {
 			"minecraft:geometry": {
 				"identifier": "geometry.rack_side"
@@ -206,14 +270,23 @@ foreach ($t in $trunks) {
     $tex = "lw_leather_trunk$t"
     $json = @"
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
 			"menu_category": {
 				"category": "items"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					],
+					"y_rotation_offset": 180
+				}
 			}
 		},
+$directionalPermutations
 		"components": {
 			"minecraft:geometry": {
 				"identifier": "geometry.leather_trunk"
@@ -242,4 +315,4 @@ foreach ($t in $trunks) {
     Set-Content -Path $file -Value $json -Encoding UTF8
 }
 
-Write-Host "Generated 39 block files without bark blocks" -ForegroundColor Green
+Write-Host "Generated 39 block files with cardinal placement directions" -ForegroundColor Green

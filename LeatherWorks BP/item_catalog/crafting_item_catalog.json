@@ -7,7 +7,8 @@
 				"groups": [
 					{
 						"group_identifier": {
-							"name": "minecraft:itemGroup.name.log"
+							"icon": "lw:debarked_log_oak",
+							"name": "lw:debarked_logs"
 						},
 						"items": [
 							"lw:debarked_log_oak",
@@ -25,7 +26,22 @@
 				"groups": [
 					{
 						"group_identifier": {
-							"name": "minecraft:itemGroup.name.chest"
+							"icon": "lw:drying_rack_oak",
+							"name": "lw:stations"
+						},
+						"items": [
+							"lw:drying_rack_oak",
+							"lw:drying_rack_spruce",
+							"lw:drying_rack_birch",
+							"lw:drying_rack_jungle",
+							"lw:drying_rack_acacia",
+							"lw:drying_rack_darkoak"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "lw:barrel_oak",
+							"name": "lw:barrels"
 						},
 						"items": [
 							"lw:barrel_oak",
@@ -39,7 +55,15 @@
 							"lw:sealed_barrel_birch",
 							"lw:sealed_barrel_jungle",
 							"lw:sealed_barrel_acacia",
-							"lw:sealed_barrel_darkoak",
+							"lw:sealed_barrel_darkoak"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "lw:leather_trunk",
+							"name": "lw:leather_trunks"
+						},
+						"items": [
 							"lw:leather_trunk",
 							"lw:leather_trunk_red",
 							"lw:leather_trunk_orange",
@@ -55,20 +79,6 @@
 							"lw:leather_trunk_gray",
 							"lw:leather_trunk_silver",
 							"lw:leather_trunk_black"
-						]
-					},
-					{
-						"group_identifier": {
-							"icon": "lw:drying_rack_oak",
-							"name": "lw:stations"
-						},
-						"items": [
-							"lw:drying_rack_oak",
-							"lw:drying_rack_spruce",
-							"lw:drying_rack_birch",
-							"lw:drying_rack_jungle",
-							"lw:drying_rack_acacia",
-							"lw:drying_rack_darkoak"
 						]
 					},
 					{

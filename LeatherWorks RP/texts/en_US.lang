@@ -161,7 +161,6 @@ tile.lw:leather_trunk_silver.name=Silver Leather Trunk
 tile.lw.leather_trunk_black.name=Black Leather Trunk
 tile.lw:leather_trunk_black.name=Black Leather Trunk
 
-itemGroup.lw=Leather Works
 itemGroup.name.lw:stations=Drying Stations
 itemGroup.name.lw.stations=Drying Stations
 itemGroup.name.lw:leatherworking_materials=Leatherworking Materials
@@ -186,15 +185,15 @@ item.lw:rawhide_deer.name=Deer Hide
 item.lw.rawhide_boar.name=Wild Boar Hide
 item.lw:rawhide_boar.name=Wild Boar Hide
 
-lw_stations=Drying Stations
 itemGroup.name.lw_stations=Drying Stations
-lw_leatherworking_materials=Leatherworking Materials
 itemGroup.name.lw_leatherworking_materials=Leatherworking Materials
-lw_packs=Packs & Backpacks
 itemGroup.name.lw_packs=Packs & Backpacks
-lw_leather_repair=Leather Repair
 itemGroup.name.lw_leather_repair=Leather Repair
+
+lw:debarked_logs=Debarked Logs
 lw:stations=Drying Stations
+lw:barrels=Leather Barrels
+lw:leather_trunks=Leather Trunks
 lw:packs=Packs & Backpacks
 lw:leather_repair=Leather Repair
 lw:leatherworking_materials=Leatherworking Materials
