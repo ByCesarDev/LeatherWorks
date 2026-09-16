@@ -1,0 +1,19 @@
+﻿{
+	"format_version": "1.20.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lw:bark_darkoak",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "item.lw.bark_darkoak.name"
+			},
+			"minecraft:icon": {
+				"texture": "lw_bark_darkoak"
+			},
+			"minecraft:max_stack_size": 64
+		}
+	}
+}
+

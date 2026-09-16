@@ -1,0 +1,258 @@
+{
+	"resource_pack_name": "LeatherWorks",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"lw_rawhide_cow": {
+			"textures": "textures/items/lw_rawhide_cow"
+		},
+		"lw_rawhide_pig": {
+			"textures": "textures/items/lw_rawhide_pig"
+		},
+		"lw_rawhide_horse": {
+			"textures": "textures/items/lw_rawhide_horse"
+		},
+		"lw_rawhide_wolf": {
+			"textures": "textures/items/lw_rawhide_wolf"
+		},
+		"lw_rawhide_polarbear": {
+			"textures": "textures/items/lw_rawhide_polarbear"
+		},
+		"lw_rawhide_mooshroom": {
+			"textures": "textures/items/lw_rawhide_mooshroom"
+		},
+		"lw_rawhide_llama": {
+			"textures": "textures/items/lw_rawhide_llama"
+		},
+		"lw_rawhide_mule": {
+			"textures": "textures/items/lw_rawhide_mule"
+		},
+		"lw_rawhide_donkey": {
+			"textures": "textures/items/lw_rawhide_donkey"
+		},
+		"lw_rawhide_deer": {
+			"textures": "textures/items/lw_rawhide_deer"
+		},
+		"lw_rawhide_boar": {
+			"textures": "textures/items/lw_rawhide_boar"
+		},
+		"lw_bark_oak": {
+			"textures": "textures/items/lw_bark_oak"
+		},
+		"lw_bark_spruce": {
+			"textures": "textures/items/lw_bark_spruce"
+		},
+		"lw_bark_birch": {
+			"textures": "textures/items/lw_bark_birch"
+		},
+		"lw_bark_jungle": {
+			"textures": "textures/items/lw_bark_jungle"
+		},
+		"lw_bark_acacia": {
+			"textures": "textures/items/lw_bark_acacia"
+		},
+		"lw_bark_darkoak": {
+			"textures": "textures/items/lw_bark_darkoak"
+		},
+		"lw_crafting_leather_scraped": {
+			"textures": "textures/items/lw_crafting_leather_scraped"
+		},
+		"lw_crafting_leather_washed": {
+			"textures": "textures/items/lw_crafting_leather_washed"
+		},
+		"lw_crafting_leather_soaked": {
+			"textures": "textures/items/lw_crafting_leather_soaked"
+		},
+		"lw_leather_strip": {
+			"textures": "textures/items/lw_leather_strip"
+		},
+		"lw_leather_sheet": {
+			"textures": "textures/items/lw_leather_sheet"
+		},
+		"lw_tannin_ball": {
+			"textures": "textures/items/lw_tannin_ball"
+		},
+		"lw_tannin_bottle": {
+			"textures": "textures/items/lw_tannin_bottle"
+		},
+		"lw_repair_kit": {
+			"textures": "textures/items/lw_repair_kit"
+		},
+		"lw_pack_brown": {
+			"textures": "textures/items/lw_pack_brown"
+		},
+		"lw_pack_red": {
+			"textures": "textures/items/lw_pack_red"
+		},
+		"lw_pack_orange": {
+			"textures": "textures/items/lw_pack_orange"
+		},
+		"lw_pack_yellow": {
+			"textures": "textures/items/lw_pack_yellow"
+		},
+		"lw_pack_lime": {
+			"textures": "textures/items/lw_pack_lime"
+		},
+		"lw_pack_green": {
+			"textures": "textures/items/lw_pack_green"
+		},
+		"lw_pack_cyan": {
+			"textures": "textures/items/lw_pack_cyan"
+		},
+		"lw_pack_light_blue": {
+			"textures": "textures/items/lw_pack_light_blue"
+		},
+		"lw_pack_blue": {
+			"textures": "textures/items/lw_pack_blue"
+		},
+		"lw_pack_purple": {
+			"textures": "textures/items/lw_pack_purple"
+		},
+		"lw_pack_magenta": {
+			"textures": "textures/items/lw_pack_magenta"
+		},
+		"lw_pack_pink": {
+			"textures": "textures/items/lw_pack_pink"
+		},
+		"lw_pack_silver": {
+			"textures": "textures/items/lw_pack_silver"
+		},
+		"lw_pack_gray": {
+			"textures": "textures/items/lw_pack_gray"
+		},
+		"lw_pack_black": {
+			"textures": "textures/items/lw_pack_black"
+		},
+		"lw_ender_pack": {
+			"textures": "textures/items/lw_ender_pack"
+		},
+		"lw_broken_leather_helmet": {
+			"textures": "textures/items/lw_broken_leather_helmet"
+		},
+		"lw_broken_leather_chestplate": {
+			"textures": "textures/items/lw_broken_leather_chestplate"
+		},
+		"lw_broken_leather_leggings": {
+			"textures": "textures/items/lw_broken_leather_leggings"
+		},
+		"lw_broken_leather_boots": {
+			"textures": "textures/items/lw_broken_leather_boots"
+		},
+		"lw_debarked_log_oak_side": {
+			"textures": "textures/items/lw_debarked_log_oak_side"
+		},
+		"lw_debarked_log_spruce_side": {
+			"textures": "textures/items/lw_debarked_log_spruce_side"
+		},
+		"lw_debarked_log_birch_side": {
+			"textures": "textures/items/lw_debarked_log_birch_side"
+		},
+		"lw_debarked_log_jungle_side": {
+			"textures": "textures/items/lw_debarked_log_jungle_side"
+		},
+		"lw_debarked_log_acacia_side": {
+			"textures": "textures/items/lw_debarked_log_acacia_side"
+		},
+		"lw_debarked_log_darkoak_side": {
+			"textures": "textures/items/lw_debarked_log_darkoak_side"
+		},
+		"lw_oak_bark": {
+			"textures": "textures/items/lw_oak_bark"
+		},
+		"lw_spruce_bark": {
+			"textures": "textures/items/lw_spruce_bark"
+		},
+		"lw_birch_bark": {
+			"textures": "textures/items/lw_birch_bark"
+		},
+		"lw_jungle_bark": {
+			"textures": "textures/items/lw_jungle_bark"
+		},
+		"lw_acacia_bark": {
+			"textures": "textures/items/lw_acacia_bark"
+		},
+		"lw_darkoak_bark": {
+			"textures": "textures/items/lw_darkoak_bark"
+		},
+		"lw_barrel_oak_side": {
+			"textures": "textures/items/lw_barrel_oak_side"
+		},
+		"lw_barrel_spruce_side": {
+			"textures": "textures/items/lw_barrel_spruce_side"
+		},
+		"lw_barrel_birch_side": {
+			"textures": "textures/items/lw_barrel_birch_side"
+		},
+		"lw_barrel_jungle_side": {
+			"textures": "textures/items/lw_barrel_jungle_side"
+		},
+		"lw_barrel_acacia_side": {
+			"textures": "textures/items/lw_barrel_acacia_side"
+		},
+		"lw_barrel_darkoak_side": {
+			"textures": "textures/items/lw_barrel_darkoak_side"
+		},
+		"lw_drying_rack_oak": {
+			"textures": "textures/items/lw_drying_rack_oak"
+		},
+		"lw_drying_rack_spruce": {
+			"textures": "textures/items/lw_drying_rack_spruce"
+		},
+		"lw_drying_rack_birch": {
+			"textures": "textures/items/lw_drying_rack_birch"
+		},
+		"lw_drying_rack_jungle": {
+			"textures": "textures/items/lw_drying_rack_jungle"
+		},
+		"lw_drying_rack_acacia": {
+			"textures": "textures/items/lw_drying_rack_acacia"
+		},
+		"lw_drying_rack_darkoak": {
+			"textures": "textures/items/lw_drying_rack_darkoak"
+		},
+		"lw_leather_trunk": {
+			"textures": "textures/items/lw_leather_trunk"
+		},
+		"lw_leather_trunk_red": {
+			"textures": "textures/items/lw_leather_trunk_red"
+		},
+		"lw_leather_trunk_orange": {
+			"textures": "textures/items/lw_leather_trunk_orange"
+		},
+		"lw_leather_trunk_yellow": {
+			"textures": "textures/items/lw_leather_trunk_yellow"
+		},
+		"lw_leather_trunk_lime": {
+			"textures": "textures/items/lw_leather_trunk_lime"
+		},
+		"lw_leather_trunk_green": {
+			"textures": "textures/items/lw_leather_trunk_green"
+		},
+		"lw_leather_trunk_cyan": {
+			"textures": "textures/items/lw_leather_trunk_cyan"
+		},
+		"lw_leather_trunk_light_blue": {
+			"textures": "textures/items/lw_leather_trunk_light_blue"
+		},
+		"lw_leather_trunk_blue": {
+			"textures": "textures/items/lw_leather_trunk_blue"
+		},
+		"lw_leather_trunk_purple": {
+			"textures": "textures/items/lw_leather_trunk_purple"
+		},
+		"lw_leather_trunk_magenta": {
+			"textures": "textures/items/lw_leather_trunk_magenta"
+		},
+		"lw_leather_trunk_pink": {
+			"textures": "textures/items/lw_leather_trunk_pink"
+		},
+		"lw_leather_trunk_gray": {
+			"textures": "textures/items/lw_leather_trunk_gray"
+		},
+		"lw_leather_trunk_silver": {
+			"textures": "textures/items/lw_leather_trunk_silver"
+		},
+		"lw_leather_trunk_black": {
+			"textures": "textures/items/lw_leather_trunk_black"
+		}
+	}
+}

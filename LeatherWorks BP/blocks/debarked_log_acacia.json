@@ -1,0 +1,37 @@
+﻿{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lw:debarked_log_acacia",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_debarked_log_acacia_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "lw_debarked_log_acacia_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "lw_debarked_log_acacia_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2.0
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 5
+			}
+		}
+	}
+}

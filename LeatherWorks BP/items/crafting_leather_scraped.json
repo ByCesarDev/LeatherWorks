@@ -1,0 +1,19 @@
+﻿{
+	"format_version": "1.20.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lw:crafting_leather_scraped",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "item.lw.crafting_leather_scraped.name"
+			},
+			"minecraft:icon": {
+				"texture": "lw_crafting_leather_scraped"
+			},
+			"minecraft:max_stack_size": 64
+		}
+	}
+}
+

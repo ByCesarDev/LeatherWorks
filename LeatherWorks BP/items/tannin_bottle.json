@@ -1,0 +1,19 @@
+﻿{
+	"format_version": "1.20.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lw:tannin_bottle",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "item.lw.tannin_bottle.name"
+			},
+			"minecraft:icon": {
+				"texture": "lw_tannin_bottle"
+			},
+			"minecraft:max_stack_size": 64
+		}
+	}
+}
+

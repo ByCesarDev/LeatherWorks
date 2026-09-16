@@ -1,0 +1,231 @@
+{
+	"format_version": "1.1.0",
+	"lw:debarked_log_oak": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_debarked_log_oak_top",
+			"down": "lw_debarked_log_oak_top",
+			"side": "lw_debarked_log_oak_side"
+		}
+	},
+	"lw:debarked_log_spruce": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_debarked_log_spruce_top",
+			"down": "lw_debarked_log_spruce_top",
+			"side": "lw_debarked_log_spruce_side"
+		}
+	},
+	"lw:debarked_log_birch": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_debarked_log_birch_top",
+			"down": "lw_debarked_log_birch_top",
+			"side": "lw_debarked_log_birch_side"
+		}
+	},
+	"lw:debarked_log_jungle": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_debarked_log_jungle_top",
+			"down": "lw_debarked_log_jungle_top",
+			"side": "lw_debarked_log_jungle_side"
+		}
+	},
+	"lw:debarked_log_acacia": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_debarked_log_acacia_top",
+			"down": "lw_debarked_log_acacia_top",
+			"side": "lw_debarked_log_acacia_side"
+		}
+	},
+	"lw:debarked_log_darkoak": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_debarked_log_darkoak_top",
+			"down": "lw_debarked_log_darkoak_top",
+			"side": "lw_debarked_log_darkoak_side"
+		}
+	},
+	"lw:barrel_oak": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_oak_top",
+			"down": "lw_barrel_oak_top",
+			"side": "lw_barrel_oak_side"
+		}
+	},
+	"lw:barrel_spruce": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_spruce_top",
+			"down": "lw_barrel_spruce_top",
+			"side": "lw_barrel_spruce_side"
+		}
+	},
+	"lw:barrel_birch": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_birch_top",
+			"down": "lw_barrel_birch_top",
+			"side": "lw_barrel_birch_side"
+		}
+	},
+	"lw:barrel_jungle": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_jungle_top",
+			"down": "lw_barrel_jungle_top",
+			"side": "lw_barrel_jungle_side"
+		}
+	},
+	"lw:barrel_acacia": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_acacia_top",
+			"down": "lw_barrel_acacia_top",
+			"side": "lw_barrel_acacia_side"
+		}
+	},
+	"lw:barrel_darkoak": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_darkoak_top",
+			"down": "lw_barrel_darkoak_top",
+			"side": "lw_barrel_darkoak_side"
+		}
+	},
+	"lw:sealed_barrel_oak": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_oak_top",
+			"down": "lw_barrel_oak_top",
+			"side": "lw_barrel_oak_side"
+		}
+	},
+	"lw:sealed_barrel_spruce": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_spruce_top",
+			"down": "lw_barrel_spruce_top",
+			"side": "lw_barrel_spruce_side"
+		}
+	},
+	"lw:sealed_barrel_birch": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_birch_top",
+			"down": "lw_barrel_birch_top",
+			"side": "lw_barrel_birch_side"
+		}
+	},
+	"lw:sealed_barrel_jungle": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_jungle_top",
+			"down": "lw_barrel_jungle_top",
+			"side": "lw_barrel_jungle_side"
+		}
+	},
+	"lw:sealed_barrel_acacia": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_acacia_top",
+			"down": "lw_barrel_acacia_top",
+			"side": "lw_barrel_acacia_side"
+		}
+	},
+	"lw:sealed_barrel_darkoak": {
+		"sound": "wood",
+		"textures": {
+			"up": "lw_barrel_darkoak_top",
+			"down": "lw_barrel_darkoak_top",
+			"side": "lw_barrel_darkoak_side"
+		}
+	},
+	"lw:drying_rack_oak": {
+		"sound": "wood",
+		"textures": "lw_drying_rack_oak"
+	},
+	"lw:drying_rack_spruce": {
+		"sound": "wood",
+		"textures": "lw_drying_rack_spruce"
+	},
+	"lw:drying_rack_birch": {
+		"sound": "wood",
+		"textures": "lw_drying_rack_birch"
+	},
+	"lw:drying_rack_jungle": {
+		"sound": "wood",
+		"textures": "lw_drying_rack_jungle"
+	},
+	"lw:drying_rack_acacia": {
+		"sound": "wood",
+		"textures": "lw_drying_rack_acacia"
+	},
+	"lw:drying_rack_darkoak": {
+		"sound": "wood",
+		"textures": "lw_drying_rack_darkoak"
+	},
+	"lw:leather_trunk": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk"
+	},
+	"lw:leather_trunk_black": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_black"
+	},
+	"lw:leather_trunk_blue": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_blue"
+	},
+	"lw:leather_trunk_cyan": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_cyan"
+	},
+	"lw:leather_trunk_gray": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_gray"
+	},
+	"lw:leather_trunk_green": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_green"
+	},
+	"lw:leather_trunk_light_blue": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_light_blue"
+	},
+	"lw:leather_trunk_lime": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_lime"
+	},
+	"lw:leather_trunk_magenta": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_magenta"
+	},
+	"lw:leather_trunk_orange": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_orange"
+	},
+	"lw:leather_trunk_pink": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_pink"
+	},
+	"lw:leather_trunk_purple": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_purple"
+	},
+	"lw:leather_trunk_red": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_red"
+	},
+	"lw:leather_trunk_silver": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_silver"
+	},
+	"lw:leather_trunk_yellow": {
+		"sound": "wood",
+		"textures": "lw_leather_trunk_yellow"
+	}
+}

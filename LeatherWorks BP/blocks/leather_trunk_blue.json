@@ -1,0 +1,33 @@
+﻿{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lw:leather_trunk_blue",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.leather_trunk"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_leather_trunk_blue",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-7, 0, -7],
+				"size": [14, 14, 14]
+			},
+			"minecraft:selection_box": {
+				"origin": [-7, 0, -7],
+				"size": [14, 14, 14]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2.5
+			}
+		}
+	}
+}

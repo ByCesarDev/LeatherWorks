@@ -1,0 +1,33 @@
+﻿{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lw:drying_rack_darkoak",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.rack_side"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_drying_rack_darkoak",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 12, 4],
+				"size": [16, 4, 4]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 12, 4],
+				"size": [16, 4, 4]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			}
+		}
+	}
+}

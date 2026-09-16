@@ -1,0 +1,41 @@
+﻿{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lw:sealed_barrel_acacia",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.barrel_empty"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_barrel_acacia_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "lw_barrel_acacia_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "lw_barrel_acacia_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2.5
+			}
+		}
+	}
+}

@@ -1,0 +1,245 @@
+$bpBlocksDir = Join-Path $PSScriptRoot "LeatherWorks BP\blocks"
+if (!(Test-Path $bpBlocksDir)) {
+    New-Item -ItemType Directory -Path $bpBlocksDir | Out-Null
+}
+
+$woods = @("oak", "spruce", "birch", "jungle", "acacia", "darkoak")
+
+# 1. Debarked Logs (Full Block Cube)
+foreach ($w in $woods) {
+    $id = "lw:debarked_log_$w"
+    $file = Join-Path $bpBlocksDir "debarked_log_$w.json"
+    $json = @"
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "$id",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_debarked_log_${w}_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "lw_debarked_log_${w}_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "lw_debarked_log_${w}_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2.0
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 5
+			}
+		}
+	}
+}
+"@
+    Set-Content -Path $file -Value $json -Encoding UTF8
+}
+
+# 2. Barrels
+foreach ($w in $woods) {
+    $id = "lw:barrel_$w"
+    $file = Join-Path $bpBlocksDir "barrel_$w.json"
+    $json = @"
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "$id",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.barrel_empty"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_barrel_${w}_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "lw_barrel_${w}_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "lw_barrel_${w}_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2.5
+			}
+		}
+	}
+}
+"@
+    Set-Content -Path $file -Value $json -Encoding UTF8
+}
+
+# 3. Sealed Barrels
+foreach ($w in $woods) {
+    $id = "lw:sealed_barrel_$w"
+    $file = Join-Path $bpBlocksDir "sealed_barrel_$w.json"
+    $json = @"
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "$id",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.barrel_empty"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_barrel_${w}_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "lw_barrel_${w}_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "lw_barrel_${w}_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2.5
+			}
+		}
+	}
+}
+"@
+    Set-Content -Path $file -Value $json -Encoding UTF8
+}
+
+# 4. Drying Racks
+foreach ($w in $woods) {
+    $id = "lw:drying_rack_$w"
+    $file = Join-Path $bpBlocksDir "drying_rack_$w.json"
+    $json = @"
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "$id",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.rack_side"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_drying_rack_$w",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 12, 4],
+				"size": [16, 4, 4]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 12, 4],
+				"size": [16, 4, 4]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			}
+		}
+	}
+}
+"@
+    Set-Content -Path $file -Value $json -Encoding UTF8
+}
+
+# 5. Leather Trunks
+$trunks = @(
+    "", "_black", "_blue", "_cyan", "_gray", "_green", "_light_blue",
+    "_lime", "_magenta", "_orange", "_pink", "_purple", "_red", "_silver", "_yellow"
+)
+
+foreach ($t in $trunks) {
+    $id = "lw:leather_trunk$t"
+    $fileName = "leather_trunk$t.json"
+    $file = Join-Path $bpBlocksDir $fileName
+    $tex = "lw_leather_trunk$t"
+    $json = @"
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "$id",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.leather_trunk"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "$tex",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-7, 0, -7],
+				"size": [14, 14, 14]
+			},
+			"minecraft:selection_box": {
+				"origin": [-7, 0, -7],
+				"size": [14, 14, 14]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2.5
+			}
+		}
+	}
+}
+"@
+    Set-Content -Path $file -Value $json -Encoding UTF8
+}
+
+Write-Host "Re-generated all 39 block files without invalid minecraft:display_name component" -ForegroundColor Green
