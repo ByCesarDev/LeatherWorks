@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lw:broken_leather_boots",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

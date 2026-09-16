@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lw:pack_black",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lw:broken_leather_helmet",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

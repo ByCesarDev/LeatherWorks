@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lw:pack_green",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

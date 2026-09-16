@@ -75,43 +75,6 @@
 					},
 					{
 						"group_identifier": {
-							"icon": "lw:rawhide_cow",
-							"name": "lw:leatherworking_materials"
-						},
-						"items": [
-							"lw:rawhide_cow",
-							"lw:rawhide_pig",
-							"lw:rawhide_horse",
-							"lw:rawhide_wolf",
-							"lw:rawhide_polarbear",
-							"lw:rawhide_mooshroom",
-							"lw:rawhide_llama",
-							"lw:rawhide_mule",
-							"lw:rawhide_donkey",
-							"lw:rawhide_deer",
-							"lw:rawhide_boar",
-							"lw:bark_oak",
-							"lw:bark_spruce",
-							"lw:bark_birch",
-							"lw:bark_jungle",
-							"lw:bark_acacia",
-							"lw:bark_darkoak",
-							"lw:crafting_leather_scraped",
-							"lw:crafting_leather_washed",
-							"lw:crafting_leather_soaked",
-							"lw:tannin_ball",
-							"lw:tannin_bottle",
-							"lw:leather_sheet",
-							"lw:leather_strip"
-						]
-					}
-				]
-			},
-			{
-				"category_name": "equipment",
-				"groups": [
-					{
-						"group_identifier": {
 							"icon": "lw:pack_brown",
 							"name": "lw:packs"
 						},
@@ -145,6 +108,38 @@
 							"lw:broken_leather_chestplate",
 							"lw:broken_leather_leggings",
 							"lw:broken_leather_boots"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "lw:rawhide_cow",
+							"name": "lw:leatherworking_materials"
+						},
+						"items": [
+							"lw:rawhide_cow",
+							"lw:rawhide_pig",
+							"lw:rawhide_horse",
+							"lw:rawhide_wolf",
+							"lw:rawhide_polarbear",
+							"lw:rawhide_mooshroom",
+							"lw:rawhide_llama",
+							"lw:rawhide_mule",
+							"lw:rawhide_donkey",
+							"lw:rawhide_deer",
+							"lw:rawhide_boar",
+							"lw:bark_oak",
+							"lw:bark_spruce",
+							"lw:bark_birch",
+							"lw:bark_jungle",
+							"lw:bark_acacia",
+							"lw:bark_darkoak",
+							"lw:crafting_leather_scraped",
+							"lw:crafting_leather_washed",
+							"lw:crafting_leather_soaked",
+							"lw:tannin_ball",
+							"lw:tannin_bottle",
+							"lw:leather_sheet",
+							"lw:leather_strip"
 						]
 					}
 				]
