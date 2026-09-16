@@ -1,13 +1,15 @@
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:crafting_items_catalog": {
 		"categories": [
 			{
-				"category": "construction",
+				"category_name": "construction",
 				"groups": [
 					{
-						"icon": "lw:debarked_log_oak",
-						"name": "minecraft:itemGroup.name.log",
+						"group_identifier": {
+							"icon": "lw:debarked_log_oak",
+							"name": "minecraft:itemGroup.name.log"
+						},
 						"items": [
 							"lw:debarked_log_oak",
 							"lw:debarked_log_spruce",
@@ -20,11 +22,13 @@
 				]
 			},
 			{
-				"category": "items",
+				"category_name": "items",
 				"groups": [
 					{
-						"icon": "lw:barrel_oak",
-						"name": "minecraft:itemGroup.name.chest",
+						"group_identifier": {
+							"icon": "lw:barrel_oak",
+							"name": "minecraft:itemGroup.name.chest"
+						},
 						"items": [
 							"lw:barrel_oak",
 							"lw:barrel_spruce",
@@ -56,8 +60,10 @@
 						]
 					},
 					{
-						"icon": "lw:drying_rack_oak",
-						"name": "lw:stations",
+						"group_identifier": {
+							"icon": "lw:drying_rack_oak",
+							"name": "lw:stations"
+						},
 						"items": [
 							"lw:drying_rack_oak",
 							"lw:drying_rack_spruce",
@@ -68,8 +74,10 @@
 						]
 					},
 					{
-						"icon": "lw:rawhide_cow",
-						"name": "lw:leatherworking_materials",
+						"group_identifier": {
+							"icon": "lw:rawhide_cow",
+							"name": "lw:leatherworking_materials"
+						},
 						"items": [
 							"lw:rawhide_cow",
 							"lw:rawhide_pig",
@@ -100,11 +108,13 @@
 				]
 			},
 			{
-				"category": "equipment",
+				"category_name": "equipment",
 				"groups": [
 					{
-						"icon": "lw:pack_brown",
-						"name": "lw:packs",
+						"group_identifier": {
+							"icon": "lw:pack_brown",
+							"name": "lw:packs"
+						},
 						"items": [
 							"lw:pack_brown",
 							"lw:pack_red",
@@ -125,8 +135,10 @@
 						]
 					},
 					{
-						"icon": "lw:repair_kit",
-						"name": "lw:leather_repair",
+						"group_identifier": {
+							"icon": "lw:repair_kit",
+							"name": "lw:leather_repair"
+						},
 						"items": [
 							"lw:repair_kit",
 							"lw:broken_leather_helmet",
