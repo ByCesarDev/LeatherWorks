@@ -11,7 +11,7 @@ foreach ($w in $woods) {
     $file = Join-Path $bpBlocksDir "debarked_log_$w.json"
     $json = @"
 {
-	"format_version": "1.20.0",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
@@ -51,13 +51,51 @@ foreach ($w in $woods) {
     Set-Content -Path $file -Value $json -Encoding UTF8
 }
 
-# 2. Barrels
+# 2. Bark Blocks (Full Block Cube)
+foreach ($w in $woods) {
+    $id = "lw:${w}_bark"
+    $file = Join-Path $bpBlocksDir "${w}_bark.json"
+    $json = @"
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "$id",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lw_${w}_bark",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 5
+			}
+		}
+	}
+}
+"@
+    Set-Content -Path $file -Value $json -Encoding UTF8
+}
+
+# 3. Barrels
 foreach ($w in $woods) {
     $id = "lw:barrel_$w"
     $file = Join-Path $bpBlocksDir "barrel_$w.json"
     $json = @"
 {
-	"format_version": "1.20.0",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
@@ -101,13 +139,13 @@ foreach ($w in $woods) {
     Set-Content -Path $file -Value $json -Encoding UTF8
 }
 
-# 3. Sealed Barrels
+# 4. Sealed Barrels
 foreach ($w in $woods) {
     $id = "lw:sealed_barrel_$w"
     $file = Join-Path $bpBlocksDir "sealed_barrel_$w.json"
     $json = @"
 {
-	"format_version": "1.20.0",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
@@ -151,13 +189,13 @@ foreach ($w in $woods) {
     Set-Content -Path $file -Value $json -Encoding UTF8
 }
 
-# 4. Drying Racks
+# 5. Drying Racks
 foreach ($w in $woods) {
     $id = "lw:drying_rack_$w"
     $file = Join-Path $bpBlocksDir "drying_rack_$w.json"
     $json = @"
 {
-	"format_version": "1.20.0",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
@@ -193,7 +231,7 @@ foreach ($w in $woods) {
     Set-Content -Path $file -Value $json -Encoding UTF8
 }
 
-# 5. Leather Trunks
+# 6. Leather Trunks
 $trunks = @(
     "", "_black", "_blue", "_cyan", "_gray", "_green", "_light_blue",
     "_lime", "_magenta", "_orange", "_pink", "_purple", "_red", "_silver", "_yellow"
@@ -206,7 +244,7 @@ foreach ($t in $trunks) {
     $tex = "lw_leather_trunk$t"
     $json = @"
 {
-	"format_version": "1.20.0",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "$id",
@@ -242,4 +280,4 @@ foreach ($t in $trunks) {
     Set-Content -Path $file -Value $json -Encoding UTF8
 }
 
-Write-Host "Re-generated all 39 block files without invalid minecraft:display_name component" -ForegroundColor Green
+Write-Host "Generated all 45 block files with format_version 1.21.60 (including bark blocks)" -ForegroundColor Green

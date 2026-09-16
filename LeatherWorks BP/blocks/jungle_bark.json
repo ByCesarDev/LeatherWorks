@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
-			"identifier": "lw:debarked_log_birch",
+			"identifier": "lw:jungle_bark",
 			"menu_category": {
 				"category": "nature"
 			}
@@ -13,20 +13,12 @@
 			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "lw_debarked_log_birch_side",
-					"render_method": "opaque"
-				},
-				"up": {
-					"texture": "lw_debarked_log_birch_top",
-					"render_method": "opaque"
-				},
-				"down": {
-					"texture": "lw_debarked_log_birch_top",
+					"texture": "lw_jungle_bark",
 					"render_method": "opaque"
 				}
 			},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 2.0
+				"seconds_to_destroy": 1.5
 			},
 			"minecraft:flammable": {
 				"catch_chance_modifier": 5,

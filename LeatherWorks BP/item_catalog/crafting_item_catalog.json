@@ -1,0 +1,148 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:crafting_item_catalog": {
+		"categories": [
+			{
+				"category": "construction",
+				"groups": [
+					{
+						"icon": "lw:debarked_log_oak",
+						"name": "minecraft:itemGroup.name.log",
+						"items": [
+							"lw:debarked_log_oak",
+							"lw:debarked_log_spruce",
+							"lw:debarked_log_birch",
+							"lw:debarked_log_jungle",
+							"lw:debarked_log_acacia",
+							"lw:debarked_log_darkoak",
+							"lw:oak_bark",
+							"lw:spruce_bark",
+							"lw:birch_bark",
+							"lw:jungle_bark",
+							"lw:acacia_bark",
+							"lw:darkoak_bark"
+						]
+					}
+				]
+			},
+			{
+				"category": "items",
+				"groups": [
+					{
+						"icon": "lw:barrel_oak",
+						"name": "minecraft:itemGroup.name.chest",
+						"items": [
+							"lw:barrel_oak",
+							"lw:barrel_spruce",
+							"lw:barrel_birch",
+							"lw:barrel_jungle",
+							"lw:barrel_acacia",
+							"lw:barrel_darkoak",
+							"lw:sealed_barrel_oak",
+							"lw:sealed_barrel_spruce",
+							"lw:sealed_barrel_birch",
+							"lw:sealed_barrel_jungle",
+							"lw:sealed_barrel_acacia",
+							"lw:sealed_barrel_darkoak",
+							"lw:leather_trunk",
+							"lw:leather_trunk_red",
+							"lw:leather_trunk_orange",
+							"lw:leather_trunk_yellow",
+							"lw:leather_trunk_lime",
+							"lw:leather_trunk_green",
+							"lw:leather_trunk_cyan",
+							"lw:leather_trunk_light_blue",
+							"lw:leather_trunk_blue",
+							"lw:leather_trunk_purple",
+							"lw:leather_trunk_magenta",
+							"lw:leather_trunk_pink",
+							"lw:leather_trunk_gray",
+							"lw:leather_trunk_silver",
+							"lw:leather_trunk_black"
+						]
+					},
+					{
+						"icon": "lw:drying_rack_oak",
+						"name": "lw:stations",
+						"items": [
+							"lw:drying_rack_oak",
+							"lw:drying_rack_spruce",
+							"lw:drying_rack_birch",
+							"lw:drying_rack_jungle",
+							"lw:drying_rack_acacia",
+							"lw:drying_rack_darkoak"
+						]
+					},
+					{
+						"icon": "lw:rawhide_cow",
+						"name": "lw:leatherworking_materials",
+						"items": [
+							"lw:rawhide_cow",
+							"lw:rawhide_pig",
+							"lw:rawhide_horse",
+							"lw:rawhide_wolf",
+							"lw:rawhide_polarbear",
+							"lw:rawhide_mooshroom",
+							"lw:rawhide_llama",
+							"lw:rawhide_mule",
+							"lw:rawhide_donkey",
+							"lw:rawhide_deer",
+							"lw:rawhide_boar",
+							"lw:bark_oak",
+							"lw:bark_spruce",
+							"lw:bark_birch",
+							"lw:bark_jungle",
+							"lw:bark_acacia",
+							"lw:bark_darkoak",
+							"lw:crafting_leather_scraped",
+							"lw:crafting_leather_washed",
+							"lw:crafting_leather_soaked",
+							"lw:tannin_ball",
+							"lw:tannin_bottle",
+							"lw:leather_sheet",
+							"lw:leather_strip"
+						]
+					}
+				]
+			},
+			{
+				"category": "equipment",
+				"groups": [
+					{
+						"icon": "lw:pack_brown",
+						"name": "lw:packs",
+						"items": [
+							"lw:pack_brown",
+							"lw:pack_red",
+							"lw:pack_orange",
+							"lw:pack_yellow",
+							"lw:pack_lime",
+							"lw:pack_green",
+							"lw:pack_cyan",
+							"lw:pack_light_blue",
+							"lw:pack_blue",
+							"lw:pack_purple",
+							"lw:pack_magenta",
+							"lw:pack_pink",
+							"lw:pack_silver",
+							"lw:pack_gray",
+							"lw:pack_black",
+							"lw:ender_pack"
+						]
+					},
+					{
+						"icon": "lw:repair_kit",
+						"name": "lw:leather_repair",
+						"items": [
+							"lw:repair_kit",
+							"lw:broken_leather_helmet",
+							"lw:broken_leather_chestplate",
+							"lw:broken_leather_leggings",
+							"lw:broken_leather_boots"
+						]
+					}
+				]
+			}
+		]
+	}
+}

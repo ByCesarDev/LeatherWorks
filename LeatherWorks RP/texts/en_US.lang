@@ -114,7 +114,7 @@ tile.lw.sealed_barrel_acacia.name=Acacia Sealed Barrel
 tile.lw:sealed_barrel_acacia.name=Acacia Sealed Barrel
 tile.lw.barrel_darkoak.name=Dark Oak Barrel
 tile.lw:barrel_darkoak.name=Dark Oak Barrel
-tile.lw:sealed_barrel_darkoak.name=Dark Oak Sealed Barrel
+tile.lw.sealed_barrel_darkoak.name=Dark Oak Sealed Barrel
 tile.lw:sealed_barrel_darkoak.name=Dark Oak Sealed Barrel
 
 tile.lw.drying_rack_oak.name=Oak Drying Rack
@@ -152,16 +152,25 @@ tile.lw.leather_trunk_purple.name=Purple Leather Trunk
 tile.lw:leather_trunk_purple.name=Purple Leather Trunk
 tile.lw.leather_trunk_magenta.name=Magenta Leather Trunk
 tile.lw:leather_trunk_magenta.name=Magenta Leather Trunk
-tile.lw.leather_trunk_pink.name=Pink Leather Trunk
+tile.lw:leather_trunk_pink.name=Pink Leather Trunk
 tile.lw:leather_trunk_pink.name=Pink Leather Trunk
 tile.lw.leather_trunk_gray.name=Gray Leather Trunk
 tile.lw:leather_trunk_gray.name=Gray Leather Trunk
-tile.lw.leather_trunk_silver.name=Silver Leather Trunk
+tile.lw:leather_trunk_silver.name=Silver Leather Trunk
 tile.lw:leather_trunk_silver.name=Silver Leather Trunk
 tile.lw.leather_trunk_black.name=Black Leather Trunk
 tile.lw:leather_trunk_black.name=Black Leather Trunk
 
 itemGroup.lw=Leather Works
+itemGroup.name.lw:stations=Drying Stations
+itemGroup.name.lw.stations=Drying Stations
+itemGroup.name.lw:leatherworking_materials=Leatherworking Materials
+itemGroup.name.lw.leatherworking_materials=Leatherworking Materials
+itemGroup.name.lw:packs=Packs & Backpacks
+itemGroup.name.lw.packs=Packs & Backpacks
+itemGroup.name.lw:leather_repair=Leather Repair
+itemGroup.name.lw.leather_repair=Leather Repair
+
 item.lw.broken_leather_chestplate.name=Tattered Leather Tunic
 item.lw:broken_leather_chestplate.name=Tattered Leather Tunic
 item.lw.broken_leather_helmet.name=Tattered Leather Cap

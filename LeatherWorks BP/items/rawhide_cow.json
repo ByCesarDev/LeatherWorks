@@ -1,9 +1,9 @@
 ﻿{
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:item": {
 		"description": {
 			"identifier": "lw:rawhide_cow",
-			"category": "items"
+			"menu_category": { "category": "items" }
 		},
 		"components": {
 			"minecraft:display_name": {
@@ -16,4 +16,5 @@
 		}
 	}
 }
+
 
