@@ -185,3 +185,12 @@ item.lw.rawhide_deer.name=Deer Hide
 item.lw:rawhide_deer.name=Deer Hide
 item.lw.rawhide_boar.name=Wild Boar Hide
 item.lw:rawhide_boar.name=Wild Boar Hide
+
+lw_stations=Drying Stations
+itemGroup.name.lw_stations=Drying Stations
+lw_leatherworking_materials=Leatherworking Materials
+itemGroup.name.lw_leatherworking_materials=Leatherworking Materials
+lw_packs=Packs & Backpacks
+itemGroup.name.lw_packs=Packs & Backpacks
+lw_leather_repair=Leather Repair
+itemGroup.name.lw_leather_repair=Leather Repair

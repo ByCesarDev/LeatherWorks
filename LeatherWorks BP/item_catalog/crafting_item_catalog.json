@@ -60,7 +60,7 @@
 					{
 						"group_identifier": {
 							"icon": "lw:drying_rack_oak",
-							"name": "lw:stations"
+							"name": "itemGroup.name.lw_stations"
 						},
 						"items": [
 							"lw:drying_rack_oak",
@@ -74,7 +74,7 @@
 					{
 						"group_identifier": {
 							"icon": "lw:pack_brown",
-							"name": "lw:packs"
+							"name": "itemGroup.name.lw_packs"
 						},
 						"items": [
 							"lw:pack_brown",
@@ -98,7 +98,7 @@
 					{
 						"group_identifier": {
 							"icon": "lw:repair_kit",
-							"name": "lw:leather_repair"
+							"name": "itemGroup.name.lw_leather_repair"
 						},
 						"items": [
 							"lw:repair_kit",
@@ -111,7 +111,7 @@
 					{
 						"group_identifier": {
 							"icon": "lw:rawhide_cow",
-							"name": "lw:leatherworking_materials"
+							"name": "itemGroup.name.lw_leatherworking_materials"
 						},
 						"items": [
 							"lw:rawhide_cow",
