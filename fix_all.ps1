@@ -1,3 +1,70 @@
+$bpDir = Join-Path $PSScriptRoot "LeatherWorks BP"
+$rpDir = Join-Path $PSScriptRoot "LeatherWorks RP"
+$blocksDir = Join-Path $bpDir "blocks"
+$itemsDir = Join-Path $bpDir "items"
+$catalogDir = Join-Path $bpDir "item_catalog"
+
+# 1. Remove the 6 bark block files
+$barkBlocks = @("oak_bark.json", "spruce_bark.json", "birch_bark.json", "jungle_bark.json", "acacia_bark.json", "darkoak_bark.json")
+foreach ($b in $barkBlocks) {
+    $p = Join-Path $blocksDir $b
+    if (Test-Path $p) {
+        Remove-Item -Path $p -Force
+        Write-Host "Removed bark block: $b" -ForegroundColor Yellow
+    }
+}
+
+# 2. Fix all 45 item JSON files
+$itemFiles = Get-ChildItem -Path $itemsDir -Filter "*.json"
+foreach ($f in $itemFiles) {
+    $name = $f.BaseName
+    $id = "lw:$name"
+    $tex = "lw_$name"
+    $displayNameKey = "item.lw.$name.name"
+    
+    $cat = "items"
+    if ($name -like "pack_*" -or $name -eq "ender_pack" -or $name -like "broken_leather_*" -or $name -eq "repair_kit") {
+        $cat = "equipment"
+    }
+    
+    $maxStack = 64
+    if ($name -like "pack_*" -or $name -eq "ender_pack" -or $name -like "broken_leather_*") {
+        $maxStack = 1
+    } elseif ($name -eq "repair_kit") {
+        $maxStack = 16
+    }
+    
+    $json = @"
+{
+	"format_version": "1.20.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "$id",
+			"menu_category": {
+				"category": "$cat"
+			}
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "$displayNameKey"
+			},
+			"minecraft:icon": "$tex",
+			"minecraft:max_stack_size": $maxStack
+		}
+	}
+}
+"@
+    Set-Content -Path $f.FullName -Value $json -Encoding UTF8
+    Write-Host "Fixed item: $($f.Name)" -ForegroundColor Green
+}
+
+# 3. Create fixed crafting_item_catalog.json with plural minecraft:crafting_items_catalog
+if (!(Test-Path $catalogDir)) {
+    New-Item -ItemType Directory -Path $catalogDir | Out-Null
+}
+
+$catalogFile = Join-Path $catalogDir "crafting_item_catalog.json"
+$catalogJson = @"
 {
 	"format_version": "1.20.10",
 	"minecraft:crafting_items_catalog": {
@@ -140,3 +207,6 @@
 		]
 	}
 }
+"@
+Set-Content -Path $catalogFile -Value $catalogJson -Encoding UTF8
+Write-Host "Created fixed crafting_item_catalog.json" -ForegroundColor Green

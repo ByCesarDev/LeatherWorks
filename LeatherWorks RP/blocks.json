@@ -48,30 +48,6 @@
 			"side": "lw_debarked_log_darkoak_side"
 		}
 	},
-	"lw:oak_bark": {
-		"sound": "wood",
-		"textures": "lw_oak_bark"
-	},
-	"lw:spruce_bark": {
-		"sound": "wood",
-		"textures": "lw_spruce_bark"
-	},
-	"lw:birch_bark": {
-		"sound": "wood",
-		"textures": "lw_birch_bark"
-	},
-	"lw:jungle_bark": {
-		"sound": "wood",
-		"textures": "lw_jungle_bark"
-	},
-	"lw:acacia_bark": {
-		"sound": "wood",
-		"textures": "lw_acacia_bark"
-	},
-	"lw:darkoak_bark": {
-		"sound": "wood",
-		"textures": "lw_darkoak_bark"
-	},
 	"lw:barrel_oak": {
 		"sound": "wood",
 		"textures": {

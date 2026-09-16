@@ -1,22 +1,18 @@
-﻿{
-	"format_version": "1.21.60",
+{
+	"format_version": "1.20.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "lw:pack_cyan",
 			"menu_category": {
-				"menu_category": { "category": "equipment" }
+				"category": "equipment"
 			}
 		},
 		"components": {
 			"minecraft:display_name": {
 				"value": "item.lw.pack_cyan.name"
 			},
-			"minecraft:icon": {
-				"texture": "lw_pack_cyan"
-			},
+			"minecraft:icon": "lw_pack_cyan",
 			"minecraft:max_stack_size": 1
 		}
 	}
 }
-
-

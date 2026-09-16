@@ -1,20 +1,18 @@
-﻿{
-	"format_version": "1.21.60",
+{
+	"format_version": "1.20.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "lw:bark_acacia",
-			"menu_category": { "category": "items" }
+			"menu_category": {
+				"category": "items"
+			}
 		},
 		"components": {
 			"minecraft:display_name": {
 				"value": "item.lw.bark_acacia.name"
 			},
-			"minecraft:icon": {
-				"texture": "lw_bark_acacia"
-			},
+			"minecraft:icon": "lw_bark_acacia",
 			"minecraft:max_stack_size": 64
 		}
 	}
 }
-
-

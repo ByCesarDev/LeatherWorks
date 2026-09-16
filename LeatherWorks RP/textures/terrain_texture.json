@@ -40,24 +40,6 @@
 		"lw_debarked_log_darkoak_top": {
 			"textures": "textures/blocks/lw_debarked_log_darkoak_top"
 		},
-		"lw_oak_bark": {
-			"textures": "textures/blocks/lw_oak_bark"
-		},
-		"lw_spruce_bark": {
-			"textures": "textures/blocks/lw_spruce_bark"
-		},
-		"lw_birch_bark": {
-			"textures": "textures/blocks/lw_birch_bark"
-		},
-		"lw_jungle_bark": {
-			"textures": "textures/blocks/lw_jungle_bark"
-		},
-		"lw_acacia_bark": {
-			"textures": "textures/blocks/lw_acacia_bark"
-		},
-		"lw_darkoak_bark": {
-			"textures": "textures/blocks/lw_darkoak_bark"
-		},
 		"lw_barrel_oak_side": {
 			"textures": "textures/blocks/lw_barrel_oak_side"
 		},

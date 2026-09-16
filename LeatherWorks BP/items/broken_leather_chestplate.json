@@ -1,20 +1,18 @@
-﻿{
-	"format_version": "1.21.60",
+{
+	"format_version": "1.20.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "lw:broken_leather_chestplate",
-			"menu_category": { "category": "items" }
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
 			"minecraft:display_name": {
 				"value": "item.lw.broken_leather_chestplate.name"
 			},
-			"minecraft:icon": {
-				"texture": "lw_broken_leather_chestplate"
-			},
+			"minecraft:icon": "lw_broken_leather_chestplate",
 			"minecraft:max_stack_size": 1
 		}
 	}
 }
-
-
