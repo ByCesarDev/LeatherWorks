@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lw:leather_trunk_magenta",
@@ -18,12 +18,28 @@
 				}
 			},
 			"minecraft:collision_box": {
-				"origin": [-7, 0, -7],
-				"size": [14, 14, 14]
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					14,
+					14
+				]
 			},
 			"minecraft:selection_box": {
-				"origin": [-7, 0, -7],
-				"size": [14, 14, 14]
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					14,
+					14
+				]
 			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 2.5

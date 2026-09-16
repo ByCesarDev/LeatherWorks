@@ -7,7 +7,6 @@
 				"groups": [
 					{
 						"group_identifier": {
-							"icon": "lw:debarked_log_oak",
 							"name": "minecraft:itemGroup.name.log"
 						},
 						"items": [
@@ -26,7 +25,6 @@
 				"groups": [
 					{
 						"group_identifier": {
-							"icon": "lw:barrel_oak",
 							"name": "minecraft:itemGroup.name.chest"
 						},
 						"items": [

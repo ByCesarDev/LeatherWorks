@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lw:debarked_log_jungle",
@@ -26,7 +26,7 @@
 				}
 			},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 2.0
+				"seconds_to_destroy": 2
 			},
 			"minecraft:flammable": {
 				"catch_chance_modifier": 5,

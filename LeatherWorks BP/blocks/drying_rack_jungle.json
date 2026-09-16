@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.10",
+	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lw:drying_rack_jungle",
@@ -18,12 +18,28 @@
 				}
 			},
 			"minecraft:collision_box": {
-				"origin": [-8, 12, 4],
-				"size": [16, 4, 4]
+				"origin": [
+					-8,
+					12,
+					4
+				],
+				"size": [
+					16,
+					4,
+					4
+				]
 			},
 			"minecraft:selection_box": {
-				"origin": [-8, 12, 4],
-				"size": [16, 4, 4]
+				"origin": [
+					-8,
+					12,
+					4
+				],
+				"size": [
+					16,
+					4,
+					4
+				]
 			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 1.5
