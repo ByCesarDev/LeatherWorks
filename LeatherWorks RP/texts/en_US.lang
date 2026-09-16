@@ -194,3 +194,7 @@ lw_packs=Packs & Backpacks
 itemGroup.name.lw_packs=Packs & Backpacks
 lw_leather_repair=Leather Repair
 itemGroup.name.lw_leather_repair=Leather Repair
+lw:stations=Drying Stations
+lw:packs=Packs & Backpacks
+lw:leather_repair=Leather Repair
+lw:leatherworking_materials=Leatherworking Materials
