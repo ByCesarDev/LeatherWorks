@@ -74,6 +74,9 @@
 		"lw_tannin_bottle": {
 			"textures": "textures/items/lw_tannin_bottle"
 		},
+		"lw_tannin_bucket": {
+			"textures": "textures/items/lw_tannin_bucket"
+		},
 		"lw_repair_kit": {
 			"textures": "textures/items/lw_repair_kit"
 		},
